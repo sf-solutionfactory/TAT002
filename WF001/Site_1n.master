@@ -31,19 +31,19 @@
                         </a>
                         <ul id="country-dropdown" class="dropdown-content" style="white-space: nowrap; position: absolute; top: 64px; left: 1075.44px; display: none; opacity: 1;">
                             <li>
-                                <a href="#!" class="grey-text text-darken-1 center" title="México">
+                                <a href="#!" class="grey-text text-darken-1 center" title="México" id="img-mx" onclick="cambiaPais(this.id);">
                                     <img src="images/flags/4x3/mx.svg" style="width: 30px; height: 20px;" /></a>
                             </li>
                             <li>
-                                <a href="#!" class="grey-text text-darken-1 center" title="Puerto Rico">
+                                <a href="#!" class="grey-text text-darken-1 center" title="Puerto Rico" id="img-pr" onclick="cambiaPais(this.id);">
                                     <img src="images/flags/4x3/pr.svg" style="width: 30px; height: 20px;" /></a>
                             </li>
                             <li>
-                                <a href="#!" class="grey-text text-darken-1 center" title="Ecuador">
+                                <a href="#!" class="grey-text text-darken-1 center" title="Ecuador" id="img-ec" onclick="cambiaPais(this.id);">
                                     <img src="images/flags/4x3/ec.svg" style="width: 30px; height: 20px;" /></a>
                             </li>
                             <li>
-                                <a href="#!" class="grey-text text-darken-1 center" title="Pringles">
+                                <a href="#!" class="grey-text text-darken-1 center" title="Pringles" id="img-ps" onclick="cambiaPais(this.id);">
                                     <img src="images/flags/4x3/mx.svg" style="width: 30px; height: 20px;" /></a>
                             </li>
                         </ul>
