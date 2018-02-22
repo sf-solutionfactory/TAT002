@@ -83,8 +83,7 @@
     <Content Include="Presupuesto\Default.aspx" />
     <Content Include="Provision\Enviar.aspx" />
     <Content Include="Provision\Nuevo.aspx" />
-    <Content Include="PruebaMG.aspx" />
-    <Content Include="PruebaRS.aspx" />
+    <Content Include="PruebaRSG.aspx" />
     <Content Include="SelPais.aspx" />
     <Content Include="Web.config" />
   </ItemGroup>
@@ -137,19 +136,12 @@
     <Compile Include="Provision\Nuevo.aspx.designer.cs">
       <DependentUpon>Nuevo.aspx</DependentUpon>
     </Compile>
-    <Compile Include="PruebaMG.aspx.cs">
-      <DependentUpon>PruebaMG.aspx</DependentUpon>
+    <Compile Include="PruebaRSG.aspx.cs">
+      <DependentUpon>PruebaRSG.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="PruebaMG.aspx.designer.cs">
-      <DependentUpon>PruebaMG.aspx</DependentUpon>
-    </Compile>
-    <Compile Include="PruebaRS.aspx.cs">
-      <DependentUpon>PruebaRS.aspx</DependentUpon>
-      <SubType>ASPXCodeBehind</SubType>
-    </Compile>
-    <Compile Include="PruebaRS.aspx.designer.cs">
-      <DependentUpon>PruebaRS.aspx</DependentUpon>
+    <Compile Include="PruebaRSG.aspx.designer.cs">
+      <DependentUpon>PruebaRSG.aspx</DependentUpon>
     </Compile>
     <Compile Include="SelPais.aspx.cs">
       <DependentUpon>SelPais.aspx</DependentUpon>
