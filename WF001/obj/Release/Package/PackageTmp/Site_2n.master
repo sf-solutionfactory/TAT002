@@ -1,0 +1,66 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Site.Master" AutoEventWireup="true" CodeBehind="Site_2n.master.cs" Inherits="WF001.Site_2n" %>
+
+<asp:Content ID="Content1" ContentPlaceHolderID="head" runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0" />
+    <meta name="theme-color" content="#d81b60" />
+
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+    <link href="../materialize/css/g-materialize.css" rel="stylesheet" />
+    <link href="../materialize/css/materialize.css" rel="stylesheet" />
+
+    <script src="../materialize/js/materialize.js"></script>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="menu" runat="server">
+    <div class="navbar-fixed" style="z-index: 998;">
+        <nav class="nav-extended">
+            <div class="nav-wrapper pink darken-1" <%-- style="background-repeat: repeat-x;background-image: url(/images/header-transient.png);"--%>>
+                <a href="../Default.aspx" class="brand-logo">
+                    <img src="../images/logo_kellogg.png"  style="padding-top: 8px;padding-left: 8px;"/></a>
+            </div>
+        </nav>
+    </div>
+    <ul id="slide-out" class="sidenav sidenav-fixed" style="z-index: 997; transform: translateX(-105%);">
+        <li>
+            <div class="navbar-fixed">
+                <div class="nav-wrapper pink darken-1" style="height: 68px;">
+                    <a href="../Default.aspx" class="brand-logo">
+                        <img src="../images/logo_kellogg.png" /></a>
+                </div>
+            </div>
+        </li>
+        <li>
+            <a id="cerrar-menu" href="#!" data-target="slide-out" class="sidenav-close pink darken-1" onclick="cerrar();"><i class="material-icons right white-text" style="margin: 0; font-size: 1.3rem;">menu</i></a>
+        </li>
+        <li>
+            <div class="user-view" style="padding: 0">
+                <div class="background pink darken-1">
+                    <%--<img src="images/office.jpg">--%>
+                </div>
+                <table>
+                    <tr>
+                        <td><a href="#!user" style="padding: 0;">
+                            <img class="circle" src="../images/sf-logo.jpg" /></a></td>
+                        <td>
+                            <asp:Label ID="lblUser" runat="server" Text="Label"></asp:Label>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </li>
+        <asp:Label ID="lblMenu" runat="server" Text=""></asp:Label>
+    </ul>
+    <script src="../js/menu.js"></script>
+    <link href="../css/sideMenu.css" rel="stylesheet" />
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="title" runat="server">
+    <asp:ContentPlaceHolder ID="title" runat="server">
+    </asp:ContentPlaceHolder>
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="form" runat="server">
+    <asp:ContentPlaceHolder ID="form" runat="server">
+    </asp:ContentPlaceHolder>
+    <script src="../js/sideMenu.js"></script>
+</asp:Content>

@@ -1,0 +1,17 @@
+﻿{
+  "name": "Español",
+  "es": "Español",
+  "en": "Inglés",
+  "login": "Iniciar Sesión",
+  "user": "Usuario",
+  "pass": "Contraseña",
+  "enter": "Ingresar",
+  "user_error": "Usuario/Contraseña incorrecta",
+  "lista_precio": "Lista de precios",
+  "pedidos": "Pedidos",
+  "tabla": "Tabla de valores",
+  "nombre": "Nombre",
+  "version": "Versión",
+  "precio": "Precio",
+  "salir": "Salir"
+}

@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="WF001.Site" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <asp:ContentPlaceHolder ID="menu" runat="server">
+    </asp:ContentPlaceHolder>
+    <div class="row">
+        <div id="div-menu" class="col s1" style="width:320px;margin-top:8px;">
+            <div id="btn-menu">
+                <a class="sidenav-trigger btn pink darken-1" data-target="slide-out" onclick="abrir(this);" style="z-index: 0">
+                    <i class="large material-icons">menu</i>
+                </a>
+            </div>
+        </div>
+        <div class="col s11" style="width:70%;">
+            <div>
+                <asp:ContentPlaceHolder ID="title" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+    <div id="container" class="container">
+        <div class="row">
+            <div>
+                <asp:ContentPlaceHolder ID="form" runat="server">
+                </asp:ContentPlaceHolder>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

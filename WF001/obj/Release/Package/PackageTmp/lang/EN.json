@@ -1,0 +1,17 @@
+﻿{
+  "name": "English",
+  "es": "Spanish",
+  "en": "English",
+  "login": "Login",
+  "user": "User",
+  "pass": "Password",
+  "enter": "Enter",
+  "user_error": "User/Password incorrect",
+  "lista_precio": "Price List",
+  "pedidos": "Orders",
+  "tabla": "Value table",
+  "nombre": "Name",
+  "version": "Version",
+  "precio": "Price",
+  "salir": "Logout"
+}
