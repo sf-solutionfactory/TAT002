@@ -18,7 +18,8 @@ namespace WF001
             string user = Request.Form["user_name"];
             string pass = Request.Form["user_pass"];
 
-            lang = "ES";
+            string culture = System.Threading.Thread.CurrentThread.CurrentUICulture.ToString();
+            lang = culture.Split('-')[0].ToUpper();
             string json = File.ReadAllText(Server.MapPath("~\\lang\\" + lang + ".json"));
             MemoryStream ms = new MemoryStream(Encoding.UTF8.GetBytes(json));
             DataContractJsonSerializer ser = new DataContractJsonSerializer(idioma.GetType());
